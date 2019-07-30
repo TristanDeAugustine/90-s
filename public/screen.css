@@ -4,9 +4,55 @@
 
 html {
   height: 100%;
+  background-image:url(https://media1.giphy.com/media/3rgXBumyEL9086dy48/200w.webp?cid=790b76115d409b9033467067595323f0&rid=200w.webp);
+  
 }
 
 body {
-  margin: 0;
+  /* margin: 5rem 20rem 5rem 20rem; */
   min-height: 100%;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+}
+
+body >main{
+  border: 20px dashed black;
+  background-color:rgb(126, 33, 33);
+  max-width: 1080px;
+  margin: 2rem;
+
+}
+
+header{
+  font-size:26px;
+  color:rgb(111, 216, 207);
+}
+.page-title {
+
+  color:rgb(207, 162, 162);
+}
+
+.TV {
+  padding:3rem;
+  color:rgb(207, 162, 162);
+
+}
+
+.Songs {
+  padding:3rem;
+  color:rgb(207, 162, 162);
+
+}
+
+.Fashion {
+  padding:3rem;
+  color:rgb(207, 162, 162);
+
+
+}
+
+.sublink {
+  color:rgb(207, 162, 162);
+  
 }
